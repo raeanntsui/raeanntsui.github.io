@@ -33,8 +33,7 @@ const ClassicHeader = ({ handleNavClick }) => {
         className={
           "primary-menu navbar navbar-expand-lg navbar-dark bg-transparent border-bottom-0 sticky-top " +
           (stickyHeader ? "sticky-on" : "")
-        }
-      >
+        }>
         <div className="container-fluid position-relative g-lg-4">
           <div className="col-auto col-lg-2">
             {/* Logo */}
@@ -48,8 +47,7 @@ const ClassicHeader = ({ handleNavClick }) => {
               onClick={(e) => {
                 e.preventDefault();
                 setIsNavModalClose(true);
-              }}
-            >
+              }}>
               {" "}
               <img src="images/logo-light.png" alt="Simone" />{" "}
             </Link>
@@ -66,8 +64,7 @@ const ClassicHeader = ({ handleNavClick }) => {
                   : "navbar-toggler ms-auto show"
               }
               id="navbar-toggler"
-              type="button"
-            >
+              type="button">
               <span />
               <span />
               <span />
@@ -78,8 +75,7 @@ const ClassicHeader = ({ handleNavClick }) => {
                 isNavModalClose
                   ? "collapse navbar-collapse justify-content-center "
                   : "show navbar-collapse justify-content-center"
-              }
-            >
+              }>
               <ul className="navbar-nav">
                 <li className="nav-item">
                   <Link
@@ -93,8 +89,7 @@ const ClassicHeader = ({ handleNavClick }) => {
                     onClick={(e) => {
                       e.preventDefault();
                       setIsNavModalClose(true);
-                    }}
-                  >
+                    }}>
                     Home
                   </Link>
                 </li>
@@ -110,8 +105,7 @@ const ClassicHeader = ({ handleNavClick }) => {
                     onClick={(e) => {
                       e.preventDefault();
                       setIsNavModalClose(true);
-                    }}
-                  >
+                    }}>
                     About
                   </Link>
                 </li>
@@ -127,8 +121,7 @@ const ClassicHeader = ({ handleNavClick }) => {
                     onClick={(e) => {
                       e.preventDefault();
                       setIsNavModalClose(true);
-                    }}
-                  >
+                    }}>
                     What I Do
                   </Link>
                 </li>
@@ -144,8 +137,7 @@ const ClassicHeader = ({ handleNavClick }) => {
                     onClick={(e) => {
                       e.preventDefault();
                       setIsNavModalClose(true);
-                    }}
-                  >
+                    }}>
                     Resume
                   </Link>
                 </li>
@@ -161,8 +153,7 @@ const ClassicHeader = ({ handleNavClick }) => {
                     onClick={(e) => {
                       e.preventDefault();
                       setIsNavModalClose(true);
-                    }}
-                  >
+                    }}>
                     Portfolio
                   </Link>
                 </li>
@@ -178,8 +169,7 @@ const ClassicHeader = ({ handleNavClick }) => {
                     onClick={(e) => {
                       e.preventDefault();
                       setIsNavModalClose(true);
-                    }}
-                  >
+                    }}>
                     Client
                   </Link>
                 </li>
@@ -195,8 +185,7 @@ const ClassicHeader = ({ handleNavClick }) => {
                     onClick={(e) => {
                       e.preventDefault();
                       setIsNavModalClose(true);
-                    }}
-                  >
+                    }}>
                     Contact
                   </Link>
                 </li>
@@ -210,8 +199,7 @@ const ClassicHeader = ({ handleNavClick }) => {
                   <a
                     href="http://www.twitter.com/"
                     target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                    rel="noopener noreferrer">
                     <i className="fab fa-twitter" />
                   </a>
                 </Tooltip>
@@ -221,8 +209,7 @@ const ClassicHeader = ({ handleNavClick }) => {
                   <a
                     href="http://www.facebook.com/"
                     target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                    rel="noopener noreferrer">
                     <i className="fab fa-facebook-f" />
                   </a>
                 </Tooltip>
@@ -232,8 +219,7 @@ const ClassicHeader = ({ handleNavClick }) => {
                   <a
                     href="http://www.dribbble.com/"
                     target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                    rel="noopener noreferrer">
                     <i className="fab fa-dribbble" />
                   </a>
                 </Tooltip>

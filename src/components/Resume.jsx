@@ -74,8 +74,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
   return (
     <section
       id="resume"
-      className={"section " + (darkTheme ? "bg-dark-1" : "")}
-    >
+      className={"section " + (darkTheme ? "bg-dark-1" : "")}>
       <div className={"container " + (classicHeader ? "" : "px-lg-5")}>
         {/* Heading */}
         <div className="position-relative d-flex text-center mb-5">
@@ -83,16 +82,14 @@ const Resume = ({ classicHeader, darkTheme }) => {
             className={
               "text-24  text-uppercase fw-600 w-100 mb-0 " +
               (darkTheme ? "text-muted opacity-1" : "text-light opacity-4")
-            }
-          >
+            }>
             Summary
           </h2>
           <p
             className={
               "text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0 " +
               (darkTheme ? "text-white" : "text-dark")
-            }
-          >
+            }>
             {" "}
             Resume
             <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto" />
@@ -105,8 +102,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
             <h2
               className={
                 "text-6 fw-600 mb-4 " + (darkTheme ? "text-white" : "")
-              }
-            >
+              }>
               My Education
             </h2>
             {educationDetails.length > 0 &&
@@ -116,8 +112,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
                   className={
                     "bg-white  rounded p-4 mb-4 " +
                     (darkTheme ? "bg-dark" : "bg-white border")
-                  }
-                >
+                  }>
                   <p className="badge bg-primary text-2 fw-400">
                     {value.yearRange}
                   </p>
@@ -138,8 +133,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
             <h2
               className={
                 "text-6 fw-600 mb-4 " + (darkTheme ? "text-white" : "")
-              }
-            >
+              }>
               My Experience
             </h2>
             {experienceDetails.length > 0 &&
@@ -149,8 +143,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
                   className={
                     "bg-white  rounded p-4 mb-4 " +
                     (darkTheme ? "bg-dark" : "bg-white border")
-                  }
-                >
+                  }>
                   <p className="badge bg-primary text-2 fw-400">
                     {value.yearRange}
                   </p>
@@ -171,8 +164,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
         <h2
           className={
             "text-6 fw-600 mt-4 mb-4 " + (darkTheme ? "text-white" : "")
-          }
-        >
+          }>
           My Skills
         </h2>
         <div className="row gx-5">
@@ -183,16 +175,14 @@ const Resume = ({ classicHeader, darkTheme }) => {
                   className={
                     " fw-500 text-start mb-2 " +
                     (darkTheme ? "text-light" : "text-dark")
-                  }
-                >
+                  }>
                   {skill.name}{" "}
                   <span className="float-end">{skill.percent}%</span>
                 </p>
                 <div
                   className={
                     "progress progress-sm mb-4 " + (darkTheme ? "bg-dark" : "")
-                  }
-                >
+                  }>
                   <div
                     className="progress-bar"
                     role="progressbar"
@@ -209,8 +199,7 @@ const Resume = ({ classicHeader, darkTheme }) => {
           <a
             className="btn btn-outline-secondary rounded-pill shadow-none"
             href={resumeFile}
-            download
-          >
+            download>
             Download CV
             <span className="ms-1">
               <i className="fas fa-download" />

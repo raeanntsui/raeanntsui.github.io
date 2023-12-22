@@ -10,16 +10,14 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
             className={
               "text-24  text-uppercase fw-600 w-100 mb-0 " +
               (darkTheme ? "text-muted opacity-1" : "text-light opacity-4")
-            }
-          >
+            }>
             About Me
           </h2>
           <p
             className={
               "text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0 " +
               (darkTheme ? "text-white" : "text-dark")
-            }
-          >
+            }>
             Know Me More
             <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto" />
           </p>
@@ -31,22 +29,28 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
             <h2
               className={
                 "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
-              }
-            >
-              I'm <span className="text-primary">Simone Olivia,</span> a Web
-              Developer
+              }>
+              I'm <span className="text-primary">Raeann Tsui,</span> an aspiring
+              Software Engineer
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-              I help you build brand for your business at an affordable price.
-              Thousands of clients have procured exceptional results while
-              working with our dedicated team. when an unknown printer took a
-              galley of type and scrambled it to make a type specimen book.
-            </p>
-            <p className={darkTheme ? "text-white-50" : ""}>
-              Delivering work within time and budget which meets client’s
-              requirements is our moto. Lorem Ipsum has been the industry's
-              standard dummy text ever when an unknown printer took a galley.
-            </p>
+              I made a big change from working in medicine to becoming a
+              software developer. The reason for this shift is that the field of
+              software development not only allows me to use my creativity to
+              solve problems but also offers flexibility because there can be
+              multiple solutions to a single problem. During my time at App
+              Academy, I gained a new set of skills in programming languages
+              such as JavaScript and Python, as well as frameworks like React,
+              Redux, and Flask. I also explored the use of AWS (Amazon Web
+              Services) in one of my personal projects. One of my notable
+              achievements is the creation of a website for booking rentals,
+              where I used technologies like Express and React. In addition to
+              that, I collaborated with other developers to build a clone of
+              Yelp, a popular platform, using Python and React, and we managed
+              to complete it in just one week. This experience enhanced my
+              ability to work efficiently and effectively as part of a team in
+              developing software projects.
+            </p>{" "}
           </div>
           {/* About me content end */}
           {/* about me personal detials start */}
@@ -56,28 +60,25 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 className={
                   "list-style-2 " +
                   (darkTheme ? "list-style-light text-light" : "")
-                }
-              >
+                }>
                 <li>
-                  <span className="fw-600 me-2">Name:</span>Simone Olivia
+                  <span className="fw-600 me-2">Name:</span>Raeann Tsui
                 </li>
                 <li>
                   <span className="fw-600 me-2">Email:</span>
-                  <a href="mailto:chat@simone.com">chat@simone.com</a>
+                  <a href="mailto:chat@simone.com">raeann.tsui@gmail.com</a>
                 </li>
                 <li>
-                  <span className="fw-600 me-2">Age:</span>28
+                  <span className="fw-600 me-2">Age:</span>27
                 </li>
                 <li className="border-0">
-                  <span className="fw-600 me-2">From:</span>Los Angeles,
-                  California
+                  <span className="fw-600 me-2">From:</span>Pittsburgh, PA
                 </li>
               </ul>
               <a
                 href={resumeFile}
                 download
-                className="btn btn-primary rounded-pill"
-              >
+                className="btn btn-primary rounded-pill">
                 Download CV
               </a>
             </div>
@@ -89,17 +90,15 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
           className={
             "brands-grid separator-border mt-5 " +
             (darkTheme ? "separator-border-light" : "")
-          }
-        >
-          <div className="row">
+          }>
+          {/* <div className="row">
             <div className="col-6 col-md-3">
               <div className="featured-box text-center">
                 <h4
                   className={
                     "text-12  mb-0 " +
                     (darkTheme ? "text-white-50" : "text-muted")
-                  }
-                >
+                  }>
                   <span>10</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
@@ -113,8 +112,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                   className={
                     "text-12  mb-0 " +
                     (darkTheme ? "text-white-50" : "text-muted")
-                  }
-                >
+                  }>
                   <span>250</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
@@ -128,8 +126,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                   className={
                     "text-12  mb-0 " +
                     (darkTheme ? "text-white-50" : "text-muted")
-                  }
-                >
+                  }>
                   <span>650</span>+
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
@@ -143,8 +140,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                   className={
                     "text-12  mb-0 " +
                     (darkTheme ? "text-white-50" : "text-muted")
-                  }
-                >
+                  }>
                   <span>38</span>
                 </h4>
                 <p className={"mb-0 " + (darkTheme ? "text-light" : "")}>
@@ -152,7 +148,7 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         {/* projects rewards counting end */}
       </div>

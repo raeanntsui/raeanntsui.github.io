@@ -11,8 +11,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
         {/* ---------------image background------------------ */}
         <div
           className="hero-bg parallax"
-          style={{ backgroundImage: 'url("images/intro-bg.jpg")' }}
-        ></div>
+          style={{ backgroundImage: 'url("images/intro-bg.jpg")' }}></div>
 
         {/* -------------------video background---------------------- */}
 
@@ -30,15 +29,15 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
           <div className="container my-auto">
             <div className="row">
               <div className="col-12 text-center">
-                <p className="text-7 fw-500 text-white mb-2 mb-md-3">Welcome</p>
+                <p className="text-7 fw-500 text-white mb-2 mb-md-3">
+                  Hi there!
+                </p>
                 <h2 className="text-16 fw-600 text-white mb-2 mb-md-3">
                   <Typewriter
                     options={{
                       strings: [
-                        "I'm Simone Olivia.",
-                        "I'm a Freelancer.",
-                        "I'm a Photographer.",
-                        "I'm a Designer.",
+                        "I'm Raeann Tsui.",
+                        "I'm an aspiring Software Engineer.",
                       ],
                       autoStart: true,
                       loop: true,
@@ -46,7 +45,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                   />
                 </h2>
                 <p className="text-5 text-light mb-4">
-                  based in Los Angeles, California.
+                  based in Pittsburgh, PA.
                 </p>
                 <a
                   href="#contact"
@@ -54,8 +53,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                   onClick={(e) => {
                     e.preventDefault();
                     handleNavClick("contact");
-                  }}
-                >
+                  }}>
                   Hire Me
                 </a>
               </div>
@@ -67,8 +65,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
             onClick={(e) => {
               e.preventDefault();
               handleNavClick("about");
-            }}
-          >
+            }}>
             <span className="animated">
               <i className="fa fa-chevron-down" />
             </span>

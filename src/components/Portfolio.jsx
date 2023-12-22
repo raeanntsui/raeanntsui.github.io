@@ -10,7 +10,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
   const [selectedProjectDetails, setSelectedProjectDetails] = useState();
 
   const filters = {
-    DESIGN: "Desing",
+    DESIGN: "Design",
     BRAND: "Brand",
     PHOTOS: "Photos",
   };
@@ -228,8 +228,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     <>
       <section
         id="portfolio"
-        className={"section " + (darkTheme ? "bg-dark-2" : "bg-light")}
-      >
+        className={"section " + (darkTheme ? "bg-dark-2" : "bg-light")}>
         <div className={"container " + (classicHeader ? "" : "px-lg-5")}>
           {/* Heading */}
           <div className="position-relative d-flex text-center mb-5">
@@ -237,16 +236,14 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
               className={
                 "text-24  text-uppercase fw-600 w-100 mb-0 " +
                 (darkTheme ? "text-muted opacity-1" : "text-light opacity-4")
-              }
-            >
+              }>
               Portfolio
             </h2>
             <p
               className={
                 "text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0 " +
                 (darkTheme ? "text-white" : "text-dark")
-              }
-            >
+              }>
               {" "}
               My Work
               <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto" />
@@ -258,13 +255,11 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
             className={
               "portfolio-menu nav nav-tabs justify-content-center border-bottom-0 mb-5 " +
               (darkTheme ? "nav-light" : "")
-            }
-          >
+            }>
             <li className="nav-item">
               <button
                 className={"nav-link " + (filterKey === "*" ? "active" : "")}
-                onClick={handleFilterKeyChange("*")}
-              >
+                onClick={handleFilterKeyChange("*")}>
                 All
               </button>
             </li>
@@ -275,8 +270,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                     "nav-link " +
                     (filterKey === filters[oneKey] ? "active" : "")
                   }
-                  onClick={handleFilterKeyChange(filters[oneKey])}
-                >
+                  onClick={handleFilterKeyChange(filters[oneKey])}>
                   {filters[oneKey]}
                 </button>
               </li>
@@ -292,8 +286,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
                       "col-sm-6 col-lg-4 filter-item " +
                       project.categories.join(" ")
                     }
-                    key={index}
-                  >
+                    key={index}>
                     <div className="portfolio-box rounded">
                       <div className="portfolio-img rounded">
                         <img
@@ -333,8 +326,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
         {/* Modal */}
         <ProjectDetailsModal
           projectDetails={selectedProjectDetails}
-          darkTheme={darkTheme}
-        ></ProjectDetailsModal>
+          darkTheme={darkTheme}></ProjectDetailsModal>
       </div>
     </>
   );

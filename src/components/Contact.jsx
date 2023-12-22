@@ -55,8 +55,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
   return (
     <section
       id="contact"
-      className={"section " + (darkTheme ? "bg-dark-2" : "bg-light")}
-    >
+      className={"section " + (darkTheme ? "bg-dark-2" : "bg-light")}>
       <div className={"container " + (classicHeader ? "" : "px-lg-5")}>
         {/* Heading */}
         <div className="position-relative d-flex text-center mb-5">
@@ -64,16 +63,14 @@ const Contact = ({ classicHeader, darkTheme }) => {
             className={
               "text-24  text-uppercase fw-600 w-100 mb-0 " +
               (darkTheme ? "text-muted opacity-1" : "text-light opacity-4")
-            }
-          >
+            }>
             Contact
           </h2>
           <p
             className={
               "text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0 " +
               (darkTheme ? "text-white" : "text-dark")
-            }
-          >
+            }>
             {" "}
             Get in Touch
             <span className="heading-separator-line border-bottom border-3 border-primary d-block mx-auto" />
@@ -86,99 +83,91 @@ const Contact = ({ classicHeader, darkTheme }) => {
             <h2
               className={
                 "mb-3 text-5 text-uppercase " + (darkTheme ? "text-white" : "")
-              }
-            >
-              Address
+              }>
+              Find Me Here
             </h2>
-            <p className={"text-3 mb-4 " + (darkTheme ? "text-light" : "")}>
+            {/* <p className={"text-3 mb-4 " + (darkTheme ? "text-light" : "")}>
               4th Floor, Plot No.22,
               <br />
               145 Murphy Canyon Rd.
               <br />
               San Diego CA 2028
-            </p>
+            </p> */}
             <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-phone" />
               </span>
-              (060) 444 434 444
+              412 742 2753
             </p>
-            <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
+            {/* <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-fax" />
               </span>
               (060) 555 545 555
-            </p>
+            </p> */}
             <p className={"text-3 mb-4 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-envelope" />
               </span>
-              chat@simone.com
+              raeann.tsui@gmail.com
             </p>
             <h2
               className={
                 "mb-3 text-5 text-uppercase " + (darkTheme ? "text-white" : "")
-              }
-            >
+              }>
               Follow Me
             </h2>
             <ul
               className={
                 "social-icons justify-content-center justify-content-md-start " +
                 (darkTheme ? "social-icons-muted" : "")
-              }
-            >
-              <li className="social-icons-dribbble">
+              }>
+              {/* <li className="social-icons-dribbble">
                 <Tooltip text="Dribbble" placement="top">
                   <a
                     href="http://www.dribbble.com/harnishdesign/"
                     target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                    rel="noopener noreferrer">
                     <i className="fab fa-dribbble" />
                   </a>
                 </Tooltip>
-              </li>
-              <li className="social-icons-twitter">
+              </li> */}
+              {/* <li className="social-icons-twitter">
                 <Tooltip text="Twitter" placement="top">
                   <a
                     href="https://twitter.com/harnishdesign/"
                     target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                    rel="noopener noreferrer">
                     <i className="fab fa-twitter" />
                   </a>
                 </Tooltip>
-              </li>
-              <li className="social-icons-facebook">
+              </li> */}
+              {/* <li className="social-icons-facebook">
                 <Tooltip text="Facebook" placement="top">
                   <a
                     href="http://www.facebook.com/harnishdesign/"
                     target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                    rel="noopener noreferrer">
                     <i className="fab fa-facebook-f" />
                   </a>
                 </Tooltip>
-              </li>
-              <li className="social-icons-google">
-                <Tooltip text="Google" placement="top">
+              </li> */}
+              <li className="linkedin">
+                <Tooltip text="LinkedIn" placement="top">
                   <a
-                    href="http://www.google.com/"
+                    href="https://www.linkedin.com/in/raeanntsui/"
                     target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-google" />
+                    rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin"></i>
                   </a>
                 </Tooltip>
               </li>
               <li className="social-icons-github">
-                <Tooltip text="Github" placement="top">
+                <Tooltip text="GitHub" placement="top">
                   <a
-                    href="http://www.github.com/"
+                    href="https://github.com/raeanntsui"
                     target="_blank"
-                    rel="noopener noreferrer"
-                  >
+                    rel="noopener noreferrer">
                     <i className="fab fa-github" />
                   </a>
                 </Tooltip>
@@ -191,9 +180,8 @@ const Contact = ({ classicHeader, darkTheme }) => {
               className={
                 "mb-3 text-5 text-uppercase text-center text-md-start " +
                 (darkTheme ? "text-white" : "")
-              }
-            >
-              Send us a note
+              }>
+              Send me a note
             </h2>
             <form
               className={darkTheme ? "form-dark" : ""}
@@ -201,8 +189,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
               action="php/mail.php"
               method="post"
               ref={form}
-              onSubmit={sendEmail}
-            >
+              onSubmit={sendEmail}>
               <div className="row g-4">
                 <div className="col-xl-6">
                   <input
@@ -237,15 +224,13 @@ const Contact = ({ classicHeader, darkTheme }) => {
                 <button
                   id="submit-btn"
                   className="btn btn-primary rounded-pill d-inline-flex"
-                  type="submit"
-                >
+                  type="submit">
                   {sendingMail ? (
                     <>
                       <span
                         role="status"
                         aria-hidden="true"
-                        class="spinner-border spinner-border-sm align-self-center me-2"
-                      ></span>
+                        class="spinner-border spinner-border-sm align-self-center me-2"></span>
                       Sending.....
                     </>
                   ) : (

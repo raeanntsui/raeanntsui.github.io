@@ -19,18 +19,17 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
             onClick={(e) => {
               e.preventDefault();
               setIsNavModalClose(true);
-            }}
-          >
+            }}>
             <span className="bg-dark-2 rounded-pill p-2 mb-lg-1 d-none d-lg-inline-block">
               <img
                 className="img-fluid rounded-pill d-block"
-                src="images/profile.jpg"
+                src="images/profile-picture.jpg"
                 title="I'm Simone"
                 alt="profile"
               />
             </span>
             <h1 className="text-5 text-white text-center mb-0 d-lg-block">
-              Simone Olivia
+              Raeann Tsui
             </h1>
           </Link>
           {/* Logo End */}
@@ -40,8 +39,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
               isNavModalClose
                 ? "collapse navbar-collapse w-100 my-lg-auto "
                 : "show navbar-collapse w-100 my-lg-auto"
-            }
-          >
+            }>
             <ul className="navbar-nav text-lg-center my-lg-auto py-lg-3">
               <li className="nav-item">
                 <Link
@@ -56,8 +54,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                   onClick={(e) => {
                     e.preventDefault();
                     setIsNavModalClose(true);
-                  }}
-                >
+                  }}>
                   Home
                 </Link>
               </li>
@@ -73,8 +70,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                   onClick={(e) => {
                     e.preventDefault();
                     setIsNavModalClose(true);
-                  }}
-                >
+                  }}>
                   About Me
                 </Link>
               </li>
@@ -90,12 +86,11 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                   onClick={(e) => {
                     e.preventDefault();
                     setIsNavModalClose(true);
-                  }}
-                >
+                  }}>
                   What I Do
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link
                   className="nav-link "
                   smooth
@@ -111,7 +106,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                 >
                   Resume
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link
                   className="nav-link "
@@ -124,12 +119,11 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                   onClick={(e) => {
                     e.preventDefault();
                     setIsNavModalClose(true);
-                  }}
-                >
+                  }}>
                   Portfolio
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link
                   className="nav-link "
                   smooth
@@ -141,11 +135,10 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                   onClick={(e) => {
                     e.preventDefault();
                     setIsNavModalClose(true);
-                  }}
-                >
+                  }}>
                   Testimonial
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link
                   className="nav-link "
@@ -158,43 +151,39 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                   onClick={(e) => {
                     e.preventDefault();
                     setIsNavModalClose(true);
-                  }}
-                >
+                  }}>
                   Contact
                 </Link>
               </li>
             </ul>
           </div>
           <ul className="social-icons social-icons-muted social-icons-sm mt-lg-auto ms-auto ms-lg-0 d-flex">
-            <li className="social-icons-facebook">
-              <Tooltip text="Facebook" placement="top">
+            <li className="linkedin">
+              <Tooltip text="LinkedIn" placement="top">
                 <a
-                  href="http://www.facebook.com/"
+                  href="https://www.linkedin.com/in/raeanntsui/"
                   target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fab fa-facebook-f" />
+                  rel="noopener noreferrer">
+                  <i class="fa-brands fa-linkedin"></i>
                 </a>
               </Tooltip>
             </li>
-            <li className="social-icons-twitter">
-              <Tooltip text="Twitter" placement="top">
+            <li className="social-icons-github">
+              <Tooltip text="GitHub" placement="top">
                 <a
-                  href="http://www.twitter.com/"
+                  href="https://github.com/raeanntsui"
                   target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fab fa-twitter" />
+                  rel="noopener noreferrer">
+                  <i className="fab fa-github" />
                 </a>
               </Tooltip>
             </li>
-            <li className="social-icons-dribbble">
+            {/* <li className="social-icons-dribbble">
               <Tooltip text="Dribbble" placement="top">
                 <a
                   href="http://www.dribbble.com/"
                   target="_blank"
-                  rel="noopener noreferrer"
-                >
+                  rel="noopener noreferrer">
                   <i className="fab fa-dribbble" />
                 </a>
               </Tooltip>
@@ -204,12 +193,11 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
                 <a
                   href="http://www.google.com/"
                   target="_blank"
-                  rel="noopener noreferrer"
-                >
+                  rel="noopener noreferrer">
                   <i className="fab fa-github" />
                 </a>
               </Tooltip>
-            </li>
+            </li> */}
           </ul>
           <button
             onClick={(e) => {
@@ -219,8 +207,7 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
               isNavModalClose ? "navbar-toggler" : "navbar-toggler show"
             }
             id="navbar-toggler"
-            type="button"
-          >
+            type="button">
             <span />
             <span />
             <span />

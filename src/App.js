@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import AboutUs from "./components/About";
 import Services from "./components/Services";
-import Resume from "./components/Resume";
+// import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
@@ -58,8 +58,7 @@ function App() {
     <>
       <div
         style={{ position: "relative" }}
-        className={classicHeader ? "" : "side-header"}
-      >
+        className={classicHeader ? "" : "side-header"}>
         {isLoading && <PreLoader></PreLoader>}
 
         <div id="main-wrapper">
@@ -73,38 +72,30 @@ function App() {
             <Home
               classicHeader={classicHeader}
               darkTheme={darkTheme}
-              handleNavClick={handleNavClick}
-            ></Home>
+              handleNavClick={handleNavClick}></Home>
             <AboutUs
               classicHeader={classicHeader}
-              darkTheme={darkTheme}
-            ></AboutUs>
+              darkTheme={darkTheme}></AboutUs>
             <Services
               classicHeader={classicHeader}
-              darkTheme={darkTheme}
-            ></Services>
-            <Resume
+              darkTheme={darkTheme}></Services>
+            {/* <Resume
               classicHeader={classicHeader}
-              darkTheme={darkTheme}
-            ></Resume>
+              darkTheme={darkTheme}></Resume> */}
             <Portfolio
               classicHeader={classicHeader}
-              darkTheme={darkTheme}
-            ></Portfolio>
-            <Testimonials
+              darkTheme={darkTheme}></Portfolio>
+            {/* <Testimonials
               classicHeader={classicHeader}
-              darkTheme={darkTheme}
-            ></Testimonials>
+              darkTheme={darkTheme}></Testimonials> */}
             <Contact
               classicHeader={classicHeader}
-              darkTheme={darkTheme}
-            ></Contact>
+              darkTheme={darkTheme}></Contact>
           </div>
           <Footer
             classicHeader={classicHeader}
             darkTheme={darkTheme}
-            handleNavClick={handleNavClick}
-          ></Footer>
+            handleNavClick={handleNavClick}></Footer>
         </div>
         {/* back to top */}
         <Tooltip text="Back to Top" placement="left">
@@ -114,8 +105,7 @@ function App() {
             style={{ display: scrollTopVisible ? "inline" : "none" }}
             onClick={() => {
               window.scrollTo({ top: 0, behavior: "smooth" });
-            }}
-          >
+            }}>
             <i className="fa fa-chevron-up"></i>
           </span>
         </Tooltip>
