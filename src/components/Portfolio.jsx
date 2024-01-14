@@ -17,7 +17,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 
   const projectsData = [
     {
-      title: "RaeBnB",
+      title: "RaeBnB!",
       projectInfo:
         "Designed and developed an Airbnb clone using React, Express, JavaScript, and CSS, showcasing proficiency in full-stack web development. Utilized React for the frontend's modular structure and employed Express for server-side operations, with JavaScript adding functionality and CSS for an aesthetically pleasing design.",
       // client: "Ruby Clinton",
