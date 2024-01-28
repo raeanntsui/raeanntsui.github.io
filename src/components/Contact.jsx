@@ -215,7 +215,7 @@ const Contact = ({ classicHeader, darkTheme }) => {
                     className="form-control"
                     rows={5}
                     required
-                    placeholder="Tell us more about your needs........"
+                    placeholder="Send me a message!"
                     defaultValue={""}
                   />
                 </div>

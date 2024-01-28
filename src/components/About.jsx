@@ -34,22 +34,25 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               Software Engineer
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-              I made a big change from working in medicine to becoming a
-              software developer. The reason for this shift is that the field of
-              software development not only allows me to use my creativity to
-              solve problems but also offers flexibility because there can be
-              multiple solutions to a single problem. During my time at App
-              Academy, I gained a new set of skills in programming languages
-              such as JavaScript and Python, as well as frameworks like React,
-              Redux, and Flask. I also explored the use of AWS (Amazon Web
-              Services) in one of my personal projects. One of my notable
-              achievements is the creation of a website for booking rentals,
-              where I used technologies like Express and React. In addition to
-              that, I collaborated with other developers to build a clone of
-              Yelp, a popular platform, using Python and React, and we managed
-              to complete it in just one week. This experience enhanced my
-              ability to work efficiently and effectively as part of a team in
-              developing software projects.
+              I transitioned from the medical field to the realm of technology
+              driven by a desire to channel my creativity into problem-solving
+              within the dynamic landscape of software development. This shift
+              offers me the flexibility to explore multiple solutions to a
+              single problem. My time at App Academy, a rigorous coding
+              bootcamp, equipped me with proficient programming skills in
+              languages such as JavaScript and hands-on experience with
+              frameworks like React, Redux, and Flask. A noteworthy
+              accomplishment in my portfolio is the development of Raebnb, an
+              Animal Crossing-themed booking rental site, utilizing technologies
+              like Express and React. Additionally, I collaborated with three
+              fellow developers on the creation of Kelp, a Yelp-inspired
+              website, employing Python and React and we successfully completed
+              the project within a one-week timeframe. The process of acquiring
+              programming skills has been a gratifying journey, allowing me to
+              employ creativity in problem-solving and foster critical thinking
+              skills. Collaborating with peers on projects, notably Kelp, has
+              been an enjoyable experience, showcasing my ability to work
+              effectively within a team.
             </p>{" "}
           </div>
           {/* About me content end */}

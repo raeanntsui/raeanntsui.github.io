@@ -17,9 +17,9 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
 
   const projectsData = [
     {
-      title: "RaeBnB!",
+      title: "Raebnb",
       projectInfo:
-        "Designed and developed an Airbnb clone using React, Express, JavaScript, and CSS, showcasing proficiency in full-stack web development. Utilized React for the frontend's modular structure and employed Express for server-side operations, with JavaScript adding functionality and CSS for an aesthetically pleasing design.",
+        "Designed and developed an Airbnb clone with an Animal Crossing theme using React.js, Express, JavaScript, and CSS, showcasing proficiency in full-stack web development. Utilized React.js for the frontend's modular structure and employed Express for server-side operations. Users can easily create a spot for rent and leave reviews on other user's spots. Each spot is equipped with a dynamically updating rating system and comments system. Site developed with JavaScript adding functionality and CSS for an aesthetically pleasing design.",
       // client: "Ruby Clinton",
       technologies: "Express, JavaScript, React.js, HTML, CSS",
       // industry: "Art & Design",
@@ -35,17 +35,17 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       //   instagram: "http://www.instagram.com/",
       //   mail: "mailto:example@gmail.com",
       // },
-      thumbImage: "images/projects/airbnb1.png",
+      thumbImage: "images/projects/raebnb1.png",
       sliderImages: [
-        "images/projects/airbnb2.png",
-        "images/projects/airbnb3.png",
+        "images/projects/raebnb2.png",
+        "images/projects/raebnb3.png",
       ],
       categories: [filters.BRAND],
     },
     {
       title: "Kelp",
       projectInfo:
-        "Kelp is a full-stack web application created using Flask for the back-end API route, React.js for the front-end user interface, and CSS for styling. This project was created within a 1 week time frame with myself and 3 other developers. The website serves as a playful clone of Yelp, but with a Spongebob Squarepants theme. ",
+        "Kelp is a full-stack web application, taking inspiration from Yelp with a playful Spongebob Squarepants theme, created with Flask for the back-end API route, React.js for the front-end user interface, and CSS for styling. This project was created with 3 other junior developers within a 2 week time frame.",
       technologies: "Flask, Python, JavaScript, React.js, HTML, CSS",
       date: "November 2023",
       url: {
@@ -59,7 +59,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
     {
       title: "Dogsy",
       projectInfo:
-        "Dogsy is a full-stack project featuring Flask for the back-end API routes and React.js for the front-end. This solo project was completed within a two-week timeframe. Users are can seamlessly navigate through the login/signup processes, enabling interaction with an array of products. The application facilitates the creation of new products, allows users to provide reviews, and offers a rating system to enhance the overall user experience.",
+        "Dogsy is a full-stack project inspired by Etsy with a pet-centric theme. Backend API routes are handled using Flask and React.js for the front-end interface. Users can seamlessly navigate through the login/signup processes, create a product for sale, and leave product reviews. Intuitive error-handling messages within forms guide users towards the next step with each form submission. Dogsy also offers a dynamic rating system that updates real time as a new review is successfully submitted.",
 
       technologies: "Flask, Python, JavaScript, React.js, HTML, CSS",
 
