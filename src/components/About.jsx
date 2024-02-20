@@ -30,29 +30,33 @@ const AboutUs = ({ classicHeader, darkTheme }) => {
               className={
                 "text-7 fw-600 mb-3 " + (darkTheme ? "text-white" : "")
               }>
-              I'm <span className="text-primary">Raeann Tsui,</span> an aspiring
-              Software Engineer
+              Hi there! I'm <span className="text-primary">Raeann Tsui</span>.
+              Welcome to my porfolio!
             </h2>
             <p className={darkTheme ? "text-white-50" : ""}>
-              I transitioned from the medical field to the realm of technology
-              driven by a desire to channel my creativity into problem-solving
-              within the dynamic landscape of software development. This shift
-              offers me the flexibility to explore multiple solutions to a
-              single problem. My time at App Academy, a rigorous coding
-              bootcamp, equipped me with proficient programming skills in
-              languages such as JavaScript and hands-on experience with
-              frameworks like React, Redux, and Flask. A noteworthy
-              accomplishment in my portfolio is the development of Raebnb, an
-              Animal Crossing-themed booking rental site, utilizing technologies
-              like Express and React. Additionally, I collaborated with three
-              fellow developers on the creation of Kelp, a Yelp-inspired
-              website, employing Python and React and we successfully completed
-              the project within a one-week timeframe. The process of acquiring
-              programming skills has been a gratifying journey, allowing me to
-              employ creativity in problem-solving and foster critical thinking
-              skills. Collaborating with peers on projects, notably Kelp, has
-              been an enjoyable experience, showcasing my ability to work
-              effectively within a team.
+              I recently graduated from App Academy, a software engineering
+              bootcamp, after pursuing a career in medicine. Transitioning from
+              my initial career path as a Physician Assistant (PA) to software
+              engineering was driven by my desire for greater flexibility and
+              creative expression. While my role as a PA fulfilled my passion
+              for problem-solving and direct patient care, I wanted an avenue to
+              explore my creativity further. Through extensive research, I
+              discovered that software engineering not only aligned with my core
+              values but also offered the opportunity for continuous learning
+              and growth. Although I no longer engage in face-to-face
+              interactions with patients, I firmly believe code bears the same
+              impact to improve the lives of others. This belief has fueled my
+              enthusiasm for the transition, despite the challenges and
+              uncertainties that lied ahead leaving a profession I invested so
+              many financial and time in. Moving forward, I am excited to apply
+              the knowledge and skills acquired during my PA training and
+              bootcamp training to the professional world of software
+              engineering. I see this transition not as a departure from my
+              previous career, but as an evolution that allows me to leverage my
+              experiences and expertise in new and innovative ways. With an open
+              mind and a dedication to lifelong learning, I eagerly anticipate
+              the possibilities that await me in this dynamic and ever-changing
+              field.
             </p>{" "}
           </div>
           {/* About me content end */}
