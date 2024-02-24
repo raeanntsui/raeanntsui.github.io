@@ -45,7 +45,7 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                   />
                 </h2>
                 <p className="text-5 text-light mb-4">
-                  based in Pittsburgh, PA.
+                  based in San Francisco, CA.
                 </p>
                 <a
                   href="#contact"
